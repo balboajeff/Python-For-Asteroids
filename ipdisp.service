@@ -1,0 +1,11 @@
+[Unit]
+Description=Output IP Addr
+After=network.target
+
+[Service]
+Type=oneshot
+ExecStart=/home/cameron/ipdisp/bin/python /home/cameron/ipdisp/ipdisp.py
+RemainAfterExit=yes
+
+[Install]
+WantedBy=multi-user.target
