@@ -9,8 +9,7 @@ pip3 install pyserial requests
 
 wget https://github.com/balboajeff/Python-For-Asteroids/archive/master.zip -O /tmp/master.zip
 
-mkdir /home/pi/Desktop/Python-For-Asteroids
-unzip /tmp/master.zip -d /home/pi/Desktop/Python-For-Asteroids
+unzip /tmp/master.zip -d /home/pi/Desktop/
 
 cp /home/pi/Desktop/Python-For-Asteroids/ipdisp.service /etc/systemd/system/
 systemctl enable ipdisp.service
