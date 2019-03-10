@@ -4,7 +4,7 @@ After=network.target
 
 [Service]
 Type=oneshot
-ExecStart=python3 /home/pi/Desktop/Python-For-Asteroids/ipdisp.py
+ExecStart=python3 /home/pi/Desktop/Python-For-Asteroids-master/ipdisp.py
 RemainAfterExit=yes
 
 [Install]
