@@ -3,7 +3,7 @@
 # This is a setup script for python for asteroids and must be run as root
 
 apt-get update
-apt-get install -y pip3
+apt-get install -y python3-pip
 
 pip3 install pyserial requests
 
